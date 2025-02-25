@@ -1,0 +1,117 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+h1, h2, h3, h4 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+/* Custom Container Styles */
+.custom-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Card Enhancements */
+.card {
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Button Enhancements */
+.btn {
+    border-radius: 4px;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+.btn-primary {
+    background-color: #3498db;
+    border-color: #3498db;
+}
+
+.btn-primary:hover {
+    background-color: #2980b9;
+    border-color: #2980b9;
+}
+
+.btn-success {
+    background-color: #2ecc71;
+    border-color: #2ecc71;
+}
+
+.btn-success:hover {
+    background-color: #27ae60;
+    border-color: #27ae60;
+}
+
+/* Table Enhancements */
+.table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.table thead th {
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #dee2e6;
+    font-weight: 600;
+}
+
+.table-hover tbody tr:hover {
+    background-color: rgba(0, 123, 255, 0.05);
+}
+
+/* Form Enhancements */
+.form-control:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 0 0.2rem rgba(52, 152, 219, 0.25);
+}
+
+/* Annotation Toggle Button Styles */
+.btn-group .btn-outline-success:hover {
+    background-color: rgba(46, 204, 113, 0.2);
+}
+
+.btn-group .btn-outline-danger:hover {
+    background-color: rgba(231, 76, 60, 0.2);
+}
+
+.btn-group .btn-outline-secondary:hover {
+    background-color: rgba(149, 165, 166, 0.2);
+}
+
+/* Status Indicators */
+.status-indicator {
+    transition: all 0.3s;
+}
+
+.status-indicator.status-done {
+    box-shadow: 0 0 5px rgba(40, 167, 69, 0.5);
+}
+
+.status-indicator.status-pending {
+    box-shadow: 0 0 5px rgba(220, 53, 69, 0.5);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .btn-action-bar {
+        flex-direction: column;
+    }
+    
+    .btn-action-bar .btn {
+        margin-bottom: 0.5rem;
+    }
+} 

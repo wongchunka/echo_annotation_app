@@ -1,0 +1,6 @@
+Patient_Name,Echo_Path,Echo_Diagnosis,Ecg_Path,LVH,LV dilated,LV impaired,RV dilated,RV impaired,AS mod severe,AR mod severe,MS mod severe,MR mod severe,TR mod severe,Pericardial effusion
+SMITH001,/home/cardiology/data/echo/SMITH001_20240101.pdf,normal lv cavity size with normal systolic function. no significant valvular disease. no pericardial effusion.,/data/ecg/SMITH001_20240101.mat,0,0,0,0,0,0,0,0,0,0,0
+JONES002,/home/cardiology/data/echo/JONES002_20240102.pdf,mild lv dilation with mildly impaired systolic function. lvef ~45%. mild mr. no pericardial effusion.,/data/ecg/JONES002_20240102.mat,0,1,1,?,?,0,0,0,1,0,0
+WILLIAMS003,/home/cardiology/data/echo/WILLIAMS003_20240103.pdf,moderate lv hypertrophy. normal lv size and function. moderate aortic stenosis. mild mr.,/data/ecg/WILLIAMS003_20240103.mat,1,0,0,0,0,1,0,0,1,0,0
+BROWN004,/home/cardiology/data/echo/BROWN004_20240104.pdf,severely dilated lv with severely impaired systolic function. lvef ~20%. severe mr. moderate tr. small pericardial effusion.,/data/ecg/BROWN004_20240104.mat,0,1,1,1,1,0,0,0,1,1,1
+DAVIS005,/home/cardiology/data/echo/DAVIS005_20240105.pdf,normal study. no significant abnormalities detected.,/data/ecg/DAVIS005_20240105.mat,0,0,0,0,0,0,0,0,0,0,0 
