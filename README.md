@@ -28,6 +28,7 @@ The CSV file should contain the following columns:
   - `MR mod severe`
   - `TR mod severe`
   - `Pericardial effusion`
+  - `Prosthetic valve`
 
 A new column `last_update` will be automatically added to track when each record was last annotated.
 
