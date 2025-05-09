@@ -64,4 +64,3 @@ python main.py
 
 - All annotations directly modify the source CSV file
 - The last_update column is automatically updated with timestamps when annotations are saved
-- Tesing
