@@ -84,7 +84,7 @@ async def annotate_view(request: Request, index: int, file: str):
     annotation_fields = [
         "LVH", "LV dilated", "LV impaired", "RV dilated", "RV impaired",
         "AS mod severe", "AR mod severe", "MS mod severe", "MR mod severe", 
-        "TR mod severe", "Pericardial effusion"
+        "TR mod severe", "Pericardial effusion", "Prosthetic valve"
     ]
     
     return templates.TemplateResponse(
@@ -117,7 +117,7 @@ async def save_annotation(
     annotation_fields = [
         "LVH", "LV dilated", "LV impaired", "RV dilated", "RV impaired",
         "AS mod severe", "AR mod severe", "MS mod severe", "MR mod severe", 
-        "TR mod severe", "Pericardial effusion"
+        "TR mod severe", "Pericardial effusion", "Prosthetic valve"
     ]
     
     for field in annotation_fields:
